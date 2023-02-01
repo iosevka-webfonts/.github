@@ -1,0 +1,11 @@
+<h1 align="center"><img src="images/grand-title.light.svg#gh-light-mode-only" title="Iosevka Grand Title"><img src="images/grand-title.dark.svg#gh-dark-mode-only" title="Iosevka Grand Title"></h1>
+
+<p align="center"> <a href="https://github.com/be5invis/Iosevka/releases#gh-light-mode-only"> <img src="images/button-release.light.svg#gh-light-mode-only" title="Release"> </a> <a href="https://github.com/be5invis/Iosevka/releases#gh-dark-mode-only"> <img src="images/button-release.dark.svg#gh-dark-mode-only" title="Release"> </a> <a href="https://be5invis.github.io/Iosevka/customizer#gh-light-mode-only"> <img src="images/button-customize.light.svg#gh-light-mode-only" title="Customizer"> </a> <a href="https://be5invis.github.io/Iosevka/customizer#gh-dark-mode-only"> <img src="images/button-customize.dark.svg#gh-dark-mode-only" title="Customizer"> </a> <a href="https://be5invis.github.io/Iosevka/specimen#gh-light-mode-only"> <img src="images/button-specimen.light.svg#gh-light-mode-only" title="Specimen"> </a> <a href="https://be5invis.github.io/Iosevka/specimen#gh-dark-mode-only"> <img src="images/button-specimen.dark.svg#gh-dark-mode-only" title="Specimen"> </a> </p>
+
+**Iosevka** is an _open-source_, _sans-serif_ + _slab-serif_, _monospace_ + _quasi‑proportional_ typeface family, designed for _writing code_, using in _terminals_, and preparing _technical documents_.
+
+Iosevka already provides webfonts, but there is no hosting option available. The [issue](https://github.com/google/fonts/issues/559) to add Iosevka font to fonts.google.com doesn't seem to be processed. Therefore, I create my own Iosevka webfont hosting using Github Page (inspired by [Pvinis](https://github.com/pvinis/iosevka-webfont)).
+
+I've created a [legacy version](https://github.com/ntk148v/iosevkawebfont), but its massive size causes [Github Pages build issue](https://github.com/ntk148v/iosevkawebfont/actions/runs/4053652450). That's why I created _Iosevka-webfonts_ organization which contains repositories. Each repository corresponds to an Iosevka webfont variant.
+
+The update process is processed in [update-centre](https://github.com/iosevka-webfonts/update-centre) repository. It is scheduled to check for the new Iosevka release, then fetches webfont-type assets, and pushes changes to corresponding repository.
